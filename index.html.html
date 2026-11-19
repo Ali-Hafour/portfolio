@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ahmed Ali Khalifa | Import Coordinator</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Public+Sans:wght@400;500;600&display=swap">
+<style>
+:root{--bg:#eef2f3;--surface:#fff;--ink:#0f2230;--muted:#4d6270;--line:#cbd7dc;--accent:#0b7a75;--accent-ink:#fff;--gold:#a8650a;--hero:#0f2230;--hero-ink:#eef6f6;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b161e;--surface:#12232e;--ink:#e6f0f2;--muted:#98adb7;--line:#27404e;--accent:#4fc7bf;--accent-ink:#06201f;--gold:#e0a24a;--hero:#08121a;--hero-ink:#e6f0f2}}
+:root[data-theme="dark"]{--bg:#0b161e;--surface:#12232e;--ink:#e6f0f2;--muted:#98adb7;--line:#27404e;--accent:#4fc7bf;--accent-ink:#06201f;--gold:#e0a24a;--hero:#08121a;--hero-ink:#e6f0f2}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 64px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:border-box;margin:0}
+body{background:var(--bg);color:var(--ink);font:400 1.05rem/1.65 "Public Sans",system-ui,sans-serif}
+h1,h2,h3{font-family:"Archivo","Public Sans",system-ui,sans-serif;line-height:1.15}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--hero);z-index:20}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:var(--hero);color:var(--hero-ink)}
+nav .in{max-width:1040px;margin:auto;padding:.8rem 1.25rem;display:flex;gap:1.4rem;flex-wrap:wrap;align-items:center}
+nav b{font-family:Archivo,sans-serif;font-weight:800;margin-right:auto}
+nav a{text-decoration:none;font-size:.92rem;font-weight:500;opacity:.85}
+nav a:hover{opacity:1;text-decoration:underline}
+.hero{background:var(--hero);color:var(--hero-ink);padding:4.5rem 1.25rem 3.5rem}
+.wrap{max-width:1040px;margin:auto}
+.hero h1{font-size:clamp(2.3rem,7vw,4.6rem);font-weight:800;letter-spacing:-.02em;max-width:14ch}
+.hero .role{font-size:1.25rem;margin-top:1rem;max-width:36ch;color:#b9d3d6}
+.cta{display:flex;gap:.8rem;flex-wrap:wrap;margin-top:2rem}
+.btn{display:inline-block;padding:.75rem 1.3rem;border-radius:6px;font-weight:600;text-decoration:none;border:2px solid var(--accent)}
+.btn.p{background:var(--accent);color:var(--accent-ink)}
+.btn.s{color:var(--hero-ink)}
+.btn:hover{filter:brightness(1.1)}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);margin-top:3rem;border-radius:8px;overflow:hidden}
+.facts div{background:#16303f;padding:1rem 1.1rem}
+.facts strong{display:block;font:800 2rem/1 Archivo,sans-serif;color:#7fe0d8}
+.facts span{font-size:.9rem;color:#b9d3d6}
+section{padding:4rem 1.25rem}
+h2{font-size:clamp(1.6rem,4vw,2.2rem);font-weight:800;margin-bottom:1.6rem}
+.lead{max-width:62ch;font-size:1.15rem}
+.lead+.lead{margin-top:1rem;color:var(--muted)}
+.track{list-style:none;padding:0;margin:0;border-left:3px solid var(--accent);margin-left:.4rem}
+.track li{position:relative;padding:0 0 1.8rem 1.6rem;max-width:62ch}
+.track li::before{content:"";position:absolute;left:-.62rem;top:.35rem;width:1rem;height:1rem;border-radius:50%;background:var(--bg);border:3px solid var(--accent)}
+.track li.m::before{border-color:var(--gold);background:var(--gold)}
+.track time{font:700 .95rem Archivo,sans-serif;color:var(--accent)}
+.track li.m time{color:var(--gold)}
+.track h3{font-size:1.15rem}
+.track p{color:var(--muted);font-size:.98rem}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:1.6rem;max-width:760px}
+.card h3{font-size:1.3rem}
+.card .co{color:var(--muted);margin:.2rem 0 1rem}
+.card ul{padding-left:1.2rem}
+.card li{margin:.4rem 0}
+.role2{margin-top:1.4rem;padding-top:1.2rem;border-top:1px solid var(--line)}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.5rem}
+.cols h3{font-size:1.1rem;margin-bottom:.7rem;padding-bottom:.5rem;border-bottom:2px solid var(--accent)}
+.cols ul{list-style:none;padding:0}
+.cols li{padding:.3rem 0}
+.alt{background:var(--surface);border-block:1px solid var(--line)}
+.certs{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:.8rem 2rem}
+.certs li{display:flex;justify-content:space-between;gap:1rem;padding:.7rem 0;border-bottom:1px solid var(--line)}
+.certs span{color:var(--muted);font-size:.92rem;white-space:nowrap}
+.note{margin-top:1.2rem;color:var(--muted);font-size:.95rem}
+footer{background:var(--hero);color:var(--hero-ink);padding:3rem 1.25rem calc(3rem + env(safe-area-inset-bottom,0px))}
+footer h2{margin-bottom:.8rem}
+footer p{margin:.3rem 0}
+footer a{color:#7fe0d8}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<nav><div class="in"><b>Ahmed Ali Khalifa</b><a href="#about">About</a><a href="#journey">Career</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#training">Training</a><a href="#contact">Contact</a></div></nav>
+
+<header class="hero"><div class="wrap">
+<h1>Ahmed Ali Abd-El-Fattah Khalifa</h1>
+<p class="role">Import Coordinator for luxury and retail brands. Twenty years in Saudi Arabia, from paperwork to the shipping yard.</p>
+<div class="cta"><a class="btn p" href="mailto:ahmed.ali19175@hotmail.com">Email me</a><a class="btn s" href="tel:+966549221773">Call +966 54 922 1773</a></div>
+<div class="facts">
+<div><strong>20 yrs</strong><span>at Radwa Trading Co.</span></div>
+<div><strong>3</strong><span>service medals (10, 15, 20 years)</span></div>
+<div><strong>ISO</strong><span>9001, 14001, OHSAS 18001 trained</span></div>
+<div><strong>2</strong><span>languages: Arabic, English</span></div>
+</div>
+</div></header>
+
+<section id="about"><div class="wrap">
+<h2>About</h2>
+<p class="lead">I coordinate imports from the first document to the moment goods reach the warehouse. For 20 years at Radwa Trading Co. (Jamjoom Group / Chalhoub Group) in Jeddah, I prepared paperwork for international brands, scheduled shipments with production and logistics teams, and received high-value products in person.</p>
+<p class="lead">I speak with overseas suppliers in English every day, process invoices accurately, and keep payable and receivable records in order. I’m based in Cairo and looking for my next role in logistics, import, or supply chain.</p>
+</div></section>
+
+<section id="journey" class="alt"><div class="wrap">
+<h2>Twenty years, one company</h2>
+<ol class="track">
+<li><time>March 1996</time><h3>Joined Radwa Trading Co.</h3><p>Started as Assistant Import Coordinator in Jeddah.</p></li>
+<li class="m"><time>2006</time><h3>10-year service medal</h3><p>Recognized for a decade of service.</p></li>
+<li class="m"><time>2011</time><h3>15-year service medal</h3><p>Same year I completed ISO 9001:2008 training with Moody International.</p></li>
+<li><time>2012 to 2014</time><h3>Quality and safety training</h3><p>QMS familiarization (2012) and the IMS Awareness Program on ISO 9001, ISO 14001, and OHSAS 18001 (2014).</p></li>
+<li class="m"><time>September 2016</time><h3>20-year service medal</h3><p>Left as Import Coordinator, with an experience certificate confirming good conduct.</p></li>
+</ol>
+</div></section>
+
+<section id="experience"><div class="wrap">
+<h2>Experience</h2>
+<div class="card">
+<h3>Import Coordinator</h3>
+<p class="co">Radwa Trading Co. (Jamjoom Group / Chalhoub Group), Jeddah, KSA. Up to 30 September 2016</p>
+<ul>
+<li>Collected and prepared import paperwork for a range of international brands.</li>
+<li>Coordinated with production and logistics departments to schedule and track shipments.</li>
+<li>Handled overseas calls and queries in English, keeping suppliers and internal teams aligned.</li>
+<li>Monitored transport arrangements to the shipping yard.</li>
+<li>Personally received and checked high-value products on arrival.</li>
+</ul>
+</div>
+</div></section>
+
+<section id="skills" class="alt"><div class="wrap">
+<h2>Skills</h2>
+<div class="cols">
+<div><h3>Import and logistics</h3><ul><li>Import documentation and customs paperwork</li><li>Shipment planning, scheduling, and tracking</li><li>Shipping yard and transport coordination</li><li>Safe receipt of high-value goods</li></ul></div>
+<div><h3>Business operations</h3><ul><li>Invoice processing</li><li>Accounts payable and receivable records</li><li>Supplier and vendor communication</li><li>Cross-department collaboration</li></ul></div>
+<div><h3>Quality and safety</h3><ul><li>ISO 9001, ISO 14001, OHSAS 18001 awareness</li><li>QMS procedures</li><li>First aid certified</li><li>Time management and problem solving</li></ul></div>
+</div>
+</div></section>
+
+<section id="training"><div class="wrap">
+<h2>Training and education</h2>
+<ul class="certs">
+<li>IMS Awareness Program (ISO 9001, 14001, OHSAS 18001)<span>REAL KSA, Apr 2014</span></li>
+<li>QMS Familiarization Program, 1st Level<span>REAL KSA, Nov 2012</span></li>
+<li>Introduction to ISO 9001:2008<span>Moody International, Dec 2011</span></li>
+<li>English, Waystage 2 (Level 5)<span>Wall Street Institute, Feb 2013</span></li>
+<li>English, Level 1 (grade 76%)<span>Berlitz Jeddah, Apr 2008</span></li>
+<li>First Aid<span>Professionals HR, Aug 2013</span></li>
+<li>Prince Naif First Aid Program<span>Saudi Red Crescent, May 2007</span></li>
+<li>Commercial Secondary Diploma<span>Egypt, 1994</span></li>
+</ul>
+<p class="note">Also trained in MS Office and ICDL. Original certificates available on request.</p>
+</div></section>
+
+<footer id="contact"><div class="wrap">
+<h2>Let’s talk</h2>
+<p><a href="mailto:ahmed.ali19175@hotmail.com">ahmed.ali19175@hotmail.com</a></p>
+<p><a href="tel:+966549221773">+966 54 922 1773</a></p>
+<p style="margin-top:1.6rem;opacity:.6;font-size:.85rem">© 2026 Ahmed Ali Abd-El-Fattah Khalifa</p>
+</div></footer>
+</body>
+</html>
